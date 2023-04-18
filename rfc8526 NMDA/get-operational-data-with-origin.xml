@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc message-id="get-operational-data-with-origin" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <get-data xmlns="urn:ietf:params:xml:ns:yang:ietf-netconf-nmda"
+            xmlns:ds="urn:ietf:params:xml:ns:yang:ietf-datastores">
+    <datastore>ds:operational</datastore>
+    <with-origin/>
+    <max-depth>3</max-depth>    
+  </get-data>
+</rpc>

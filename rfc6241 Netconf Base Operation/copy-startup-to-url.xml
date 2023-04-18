@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc message-id="copy-startup-to-url" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <copy-config>
+    <source>
+      <startup/>
+    </source>
+    <target>
+      <url>ftp://username:password@192.168.0.100:/config/PE1.cfg</url>
+    </target>
+  </copy-config>
+</rpc>
